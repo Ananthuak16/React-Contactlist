@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Contact List React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple Contact List application built using React. It allows users to fetch and display contacts from an API, add new contacts, update existing contacts, and delete contacts.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Fetch and Display Contacts**: Contacts are fetched from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users) and displayed on the app.
+  
+- **Add Contact**: Users can add new contacts by entering contact details and submitting the form. Although this is a dummy request, the form simulates making a POST call to the API to add a new contact.
 
-### `npm start`
+- **Update Contact**: Existing contacts can be updated by clicking the "Update" button on each contact card. This simulates making a PUT call to the API to update the contact details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Delete Contact**: Users can delete a contact by clicking the "Delete" button on each contact card. This simulates making a DELETE call to the API to remove the contact.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React: JavaScript library for building user interfaces.
+- React Hooks: Functional components and state management.
+- React Fetch Hook: Custom hook for fetching data from APIs.
+- Tailwind CSS: Utility-first CSS framework for styling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Video Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Please watch the project demonstration video [here](<https://drive.google.com/file/d/1JwDXBT0trOQzlYMScufdL9AhJtR1l4KD/view?usp=sharing>).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Github Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Explore the code on [GitHub](<https://github.com/Ananthuak16/React-Contactlist>).
 
-### `npm run eject`
+## Hosted Application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Explore the Web app  on [GitHub](<https://6639edc5669e3dc71c315fd0--bright-pudding-7c37b0.netlify.app/>).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Folder Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+├── public/
+│   └── index.html
+├── src/
+│   ├── Components/
+│   │   ├── AddContact.jsx
+│   │   ├── ContactCards.jsx
+│   │   └── UpdateContact.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles.css
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-## Learn More
+## How to Run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd contact-list-react-app`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and go to `http://localhost:3000` to view the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Notes
 
-### Code Splitting
+- This project uses a dummy API from [JSONPlaceholder](https://jsonplaceholder.typicode.com/) for demonstration purposes. No actual CRUD operations are performed on a real server.
+- The `AddContact`, `ContactCards`, and `UpdateContact` components are responsible for adding, displaying, and updating contacts, respectively.
+- The project utilizes Tailwind CSS for styling. The `styles.css` file contains additional custom styles if needed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Improvements
 
-### Analyzing the Bundle Size
+- Implementing client-side validation for adding and updating contacts.
+- Enhancing the user interface with animations and transitions.
+- Adding user authentication and user-specific contact lists.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+[Your Name]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
