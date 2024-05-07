@@ -30,7 +30,7 @@ Explore the code on [GitHub](<https://github.com/Ananthuak16/React-Contactlist.g
 
 ## Hosted Application
 
-Explore the Web app  on [GitHub](<https://6639edc5669e3dc71c315fd0--bright-pudding-7c37b0.netlify.app/>).
+Explore the Web app  on [here](<https://6639edc5669e3dc71c315fd0--bright-pudding-7c37b0.netlify.app/>).
 
 
 ## Folder Structure
@@ -73,7 +73,7 @@ Explore the Web app  on [GitHub](<https://6639edc5669e3dc71c315fd0--bright-puddi
 
 ## Author
 
-[Your Name]
+[Ananthu Krishnan]
 
 ## License
 
