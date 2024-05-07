@@ -22,11 +22,11 @@ This project is a simple Contact List application built using React. It allows u
 
 ## Video Demo
 
-Please watch the project demonstration video [here](<https://drive.google.com/file/d/1JwDXBT0trOQzlYMScufdL9AhJtR1l4KD/view?usp=sharing>).
+Please watch the project demonstration video [here](<>).
 
 ## Github Repository
 
-Explore the code on [GitHub](<https://github.com/Ananthuak16/React-Contactlist>).
+Explore the code on [GitHub](<https://github.com/Ananthuak16/React-Contactlist.git>).
 
 ## Hosted Application
 
