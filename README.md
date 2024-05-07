@@ -22,7 +22,7 @@ This project is a simple Contact List application built using React. It allows u
 
 ## Video Demo
 
-Please watch the project demonstration video [here](<>).
+Please watch the project demonstration video [here](<https://drive.google.com/file/d/1Cz50RzbuLgWjmuS3Tt4SkMGtfPe97U6W/view>).
 
 ## Github Repository
 
